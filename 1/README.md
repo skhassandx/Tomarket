@@ -1,4 +1,4 @@
-> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/roddyfred)
+> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">]
 
 ![img1](./.github/image/hero.png)
 
@@ -19,9 +19,8 @@
 | Binding a proxy to a session/query_id                         |    ✅     |
 | Random sleep time between clicks                              |    ✅     |
 
-## [How to add query id](https://github.com/Freddywhest/RockyRabbitBot/blob/main/AddQueryId.md)
+## [How to add query id](Video comming)
 
-## [Settings](https://github.com/FreddyWhest/ToMarketBot/blob/main/.env-example)
 
 | Settings                       | Description                                                                |
 | ------------------------------ | -------------------------------------------------------------------------- |
@@ -39,43 +38,44 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/ToMarketBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/skhassandx/Tomarket) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/ToMarketBot.git
-~ >>> cd ToMarketBot
+~ >>> git clone https://github.com/skhassandx/Tomarket.git
+~ >>> cd Tomarket
+~ >>> cd 1
 
 #Linux and MocOS
-~/ToMarketBot >>> chmod +x check_node.sh
-~/ToMarketBot >>> ./check_node.sh
+~/Tomarket/1 >>> chmod +x check_node.sh
+~/Tomarket/1 >>> ./check_node.sh
 
 OR
 
-~/ToMarketBot >>> npm install
-~/ToMarketBot >>> cp .env-example .env
-~/ToMarketBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/ToMarketBot >>> node index.js
+~/Tomarket/1 >>> npm install
+~/Tomarket/1 >>> cp .env-example .env
+~/Tomarket/1 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/Tomarket/1 >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in ToMarketBot directory to install the dependencies
-2. Double click on START.bat in ToMarketBot directory to start the bot
+1. Double click on INSTALL.bat in Tomarket/1 directory to install the dependencies
+2. Double click on START.bat in Tomarket/1 directory to start the bot
 
 OR
 
-~/ToMarketBot >>> npm install
-~/ToMarketBot >>> cp .env-example .env
-~/ToMarketBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/ToMarketBot >>> node index.js
+~/Tomarket/1 >>> npm install
+~/Tomarket/1 >>> cp .env-example .env
+~/Tomarket/1 >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/Tomarket/1 >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/ToMarketBot >>> node index.js --action=1
+~/Tomarket/1 >>> node index.js --action=1
 
 OR
 
-~/ToMarketBot >>> node index.js --action=2
+~/Tomarket/1 >>> node index.js --action=2
 
 #1 - Create session
 #2 - Run clicker
